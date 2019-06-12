@@ -1,0 +1,282 @@
+#0
+Title=0
+Description=blank
+;end Description
+colour=0; xPos=0; yPos=60;
+#1
+Title=castle doors
+Description=Two massive doors once loomed over people here but have long since been broken down and pushed to one side.
+;end Description
+colour=0; xPos=270; yPos=591;
+link=31; text=Go to 31 to get to Main Hall;
+link=33; text=Go to 33 to get to Walls;
+link=39; text=Go to 39 to get to Walls;
+item=9; links to=36; text=rope gets you to 36;
+#2
+Title=Kitchen
+Description=Some of the heavier implements remain but most of the tools that were used to run this once bustling kitchen are gone. A rather stout door is locked preventing you from accessing the cellars without a key.
+;end Description
+colour=0; xPos=359; yPos=444;
+link=14; text=Go to 14 to get to Before the fire;
+link=44; text=Go to 44 to get to Pantry;
+item=1; links to=43; text=Iron Key gets you to 43;
+#4
+Title=Chancery
+Description=Once the place for which all the castle business was conducted is now just an empty room other than the grand desk central to the room that has defied all efforts to steal it.
+;end Description
+colour=0; xPos=166; yPos=502;
+link=8; text=Go to 8 to get to Treasury;
+link=31; text=Go to 31 to get to Main Hall;
+link=46; text=Go to 46 to get to Tower stairs;
+#5
+Title=garderobe
+Description=A three holer lies here. If you were sufficiently desperate you could climb down to somewhere interesting.
+;end Description
+colour=0; xPos=248; yPos=229;
+link=27; text=Go down the hole to 27 to get to Drain;
+link=35; text=Go to 35 to get to Upper corridor;
+#6
+Title=Bedrooms
+Description=Several smaller bedrooms lie here once no doubt the domain of a minor lord or commander and his retainers.
+;end Description
+colour=0; xPos=109; yPos=324;
+link=25; text=Go to 25 to get to Barracks;
+#7
+Title=Further down
+Description=You end up taking a tumble in the dark and find yourself in the river. Do you have anything to light your way amidst the dark waters?
+;end Description
+colour=0; xPos=563; yPos=611;
+link=47; text=Flounder by feel to 47 ;
+item=3; links to=38; text=Lamp gets you to 38;
+#8
+Title=Treasury
+Description=Once this would have been a great place to be full of gold and taxes but it seems somebody knocked down much of the wall and the rest has fallen into the river. Do you want to swim?
+;end Description
+colour=0; xPos=35; yPos=493;
+link=4; text=Go to 4 to get to Chancery;
+link=47; text=Try swimming at 47;
+#9
+Title=Down Below
+Description=This half built chapel would have been quite grand if finished rather than being half full of water and mud but does still have some building materials around amongst the sludge.
+;end Description
+colour=0; xPos=47; yPos=234;
+link=37; text=Go to 37 to get to Dark Waters;
+#13
+Title=Gnarled passage
+Description=The tight caves form a knot around you going off in various directions.
+;end Description
+colour=0; xPos=285; yPos=123;
+link=30; text=Go to 30 to get to Twisty passage;
+link=38; text=Go to 38 to get to yet more cave;
+link=42; text=Go to 42 to get to Turny passage;
+#14
+Title=Before the fire
+Description=The fire place of the main hall lies empty and cold
+;end Description
+colour=0; xPos=247; yPos=444;
+link=2; text=Go to 2 to get to Kitchen;
+link=31; text=Go to 31 to get to Main Hall;
+#15
+Title=Rooftops
+Description=You are balanced on the slate tiles of the roof near the main chimney. There is an iron loop for anchoring a rope to.
+;end Description
+colour=0; xPos=131; yPos=409;
+link=48; text=Go to 48 to get to Spire;
+item=4; links to=18; text=Rope gets you to 18;
+#16
+Title=Dusty bedroom
+Description=This small bedroom lies empty and gathering, all portable furniture long gone. And for some reason a trail of soot emerges from the fireplace.
+;end Description
+colour=0; xPos=237; yPos=328;
+link=18; text=Go to 18 to climb back into the chimney ;
+link=35; text=Go to 35 to get to Upper corridor and away from the soot;
+#17
+Title=Turny passage
+Description=You are sure you have been here before but it is hard to tell.
+;end Description
+colour=0; xPos=369; yPos=187;
+link=29; text=Go to 29 to get to Curly Passage;
+link=42; text=Go to 42 to get to Turny passage;
+#18
+Title=Up the chimney
+Description=You are halfway up a very dirty chimney. Why are you doing this again? You can descend into hearth of the main hall or into a hearth at this level.
+;end Description
+colour=0; xPos=236; yPos=390;
+link=14; text=Go down to 14 to get to Before the fire;
+link=16; text=Climb out at 16 to get to Dusty bedroom;
+#23
+Title=Upper Staircase
+Description=Stairs down to the pantry were once here. Now open space yawns in front of you. Going down will be easy (if somewhat painful), coming back up rather less so.
+;end Description
+colour=0; xPos=434; yPos=275;
+link=35; text=Go to 35 to get to Upper corridor;
+link=44; text=Jump down to 44 to get to Pantry;
+#25
+Title=Barracks
+Description=The many bodies that lived here are long gone but the fug of not enough soap lives on.
+;end Description
+colour=0; xPos=108; yPos=281;
+link=6; text=Go to 6 to get to Bedrooms;
+link=35; text=Go to 35 to get to Upper corridor;
+#26
+Title=Twisty cave
+Description=A large pile of rocks block the way ahead here look to have been placed by many hands. Some are quite heavy, while others might be moveable with the right tool (or better someone who is not you with the right tool).
+;end Description
+colour=0; xPos=165; yPos=138;
+link=29; text=Go to 29 to get to Curly Passage;
+link=30; text=Go to 30 to get to Twisty passage;
+item=2; links to=45; text=CrowBar gets you to 45;
+#27
+Title=Drain
+Description=The original carefully barred drainage system has been washed away into a much wider opening here taking much of the plumbing with it.
+;end Description
+colour=0; xPos=462; yPos=463;
+link=2; text=Climb through to 2 to get toKitchen;
+link=41; text=Go back to 41 to get toEast Tower;
+#28
+Title=Open Box
+Description=Inside you find your treasure and now just need to get out again...
+;end Description
+colour=0; xPos=31; yPos=184;
+link=45; text=Go to 45 to get to Lost alcove;
+#29
+Title=Curly Passage
+Description=Water has scoured the floor of this passage many many times.
+;end Description
+colour=0; xPos=189; yPos=96;
+link=13; text=Left to 13 to get to Knarled passage;
+link=17; text=Go to 17 to get to Turny passage;
+link=26; text=Right to 26 to get to Twisty cave;
+link=42; text=Ahead to 42 to get to Turny passage;
+#30
+Title=Twisty passage
+Description=More twists and turns lie ahead of you.
+;end Description
+colour=0; xPos=271; yPos=183;
+link=13; text=Back to 13 to get to Knarled passage;
+link=17; text=down to 17 to get to Turny passage;
+link=34; text=right to 34 to get to Twisty passage;
+link=37; text=Ahead to 37 to get to Dark Waters;
+#31
+Title=Main Hall
+Description=The main hall is dusty and worse for wear
+;end Description
+colour=0; xPos=259; yPos=513;
+link=1; text=Go to 1 to get to Castle doors;
+link=4; text=Go to 4 to get to Chancery;
+link=14; text=Go to 14 to get to Before the fire;
+link=44; text=Go to 44 to get to Pantry;
+#33
+Title=Walls
+Description=The castle walls loom over you here
+;end Description
+colour=0; xPos=393; yPos=604;
+link=1; text=Go to 1 to get to Castle doors;
+link=41; text=Go to 41 to get to East Tower;
+#34
+Title=Twisty passage
+Description=Many Twisty passages all alike lie here.
+;end Description
+colour=0; xPos=420; yPos=137;
+link=17; text=Go to 17 to get to Turny passage;
+link=38; text=Go to 38 to get to Hidden Cave;
+link=42; text=Go to 42 to get to Turny passage;
+#35
+Title=Upper corridor
+Description=This long and dusty corridor has been empty for a long time.
+;end Description
+colour=0; xPos=236; yPos=278;
+link=5; text=Go to 5 to get to garderobe;
+link=16; text=Go to 16 to get to Dusty bedroom;
+link=23; text=Go to 23 to get to Upper Staircase;
+link=25; text=Go to 25 to get to Barracks;
+#36
+Title=The End
+Description=And thus finishes your adventure! Congratulations on successfully finding your way there and back again. Please return all item cards to the relevant rooms,
+;end Description
+colour=0; xPos=444; yPos=649;
+#37
+Title=Dark Waters
+Description=A small alcove here features stone stairs into a mostly flooded room
+;end Description
+colour=0; xPos=145; yPos=194;
+link=9; text=Go to 9 to get to Down Below;
+link=26; text=Go to 26 to get to Twisty cave;
+link=30; text=Go to 30 to get to Twisty passage;
+#38
+Title=Hidden Cave
+Description=A hidden cave lies here, dark water moves in the flickering darkness to one side if you really want to go for a swim.
+;end Description
+colour=0; xPos=530; yPos=267;
+link=7; text=Jump in to swim to 7;
+link=34; text=Go to 34 to get to Twisty passage;
+#39
+Title=Walls
+Description=The castle walls are worn but still standing here
+;end Description
+colour=0; xPos=134; yPos=592;
+link=1; text=Go to 1 to get to castle doors;
+link=49; text=Go to 49 to get to River edge;
+#41
+Title=East Tower
+Description=While in disrepair the walls still tower above you defying both time and your efforts to breach them.
+;end Description
+colour=0; xPos=471; yPos=546;
+link=27; text=Go to 27 to get to Drain;
+link=33; text=Go to 33 to get to Walls;
+#42
+Title=Turny passage
+Description=The passages turn and branch  around you.
+;end Description
+colour=0; xPos=352; yPos=81;
+link=13; text=Go to 13 to get to Gnarled passage;
+link=34; text=Go to 34 to get to Twisty passage;
+#43
+Title=Dark Stairs
+Description=There is no light ahead of you do you want to blunder into the darkness?
+;end Description
+colour=0; xPos=480; yPos=381;
+link=2; text=Go into the light towards 2 to get back to the Kitchen;
+link=7; text=Feel your way to 7;
+item=3; links to=38; text=Lamp lights way to 38;
+#44
+Title=Pantry
+Description=What was once a storage for fine foods and victuals is now covered in dust. A pile of rubble and open hole in the ceiling mark where stairs up once went.
+;end Description
+colour=0; xPos=368; yPos=528;
+link=2; text=Go to 2 to get to Kitchen;
+link=31; text=Go to 31 to get to Main Hall;
+#45
+Title=Lost alcove
+Description=In this long lost cave system you find a heavy wooden box.
+;end Description
+colour=0; xPos=43; yPos=134;
+link=26; text=Go to 26 to get to Twisty cave;
+link=28; text=Go to 28 to get to Open the Box;
+#46
+Title=Tower stairs
+Description=These stairs continue up and down
+;end Description
+colour=0; xPos=36; yPos=435;
+link=4; text=Go down to 4 to get to Chancery;
+link=48; text=Go up to 48 to get to Spire;
+#47
+Title=Downstream
+Description=Well you did not drown but was a near thing
+;end Description
+colour=0; xPos=133; yPos=648;
+link=1; text=Go to 1 to get to castle doors;
+#48
+Title=Spire
+Description=You can see sky through the many holes in the spire wall here. This is possibly note the safest place to be, but you can probably find something even sillier to do.
+;end Description
+colour=0; xPos=36; yPos=385;
+link=15; text=Climb through onto the vertiginous roof to 15 ;
+link=46; text=Go to 46 to go back down the stairs;
+#49
+Title=River edge
+Description=The West tower rises from the river's edge here Do you want to swim across?
+;end Description
+colour=0; xPos=32; yPos=588;
+link=39; text=Go to 39 to get to Walls;
+link=47; text=Try swimming at 47;
